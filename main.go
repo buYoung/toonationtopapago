@@ -68,11 +68,7 @@ func main() {
 }
 
 func papagoWindow() {
-	papago, _ = lorca.New("https://papago.naver.com/", "", 1280, 960)
-	if papago != nil {
-		global.Log_Error.Sugar.Errorf("papago Window Create Error %#v", papago)
-		return
-	}
+	papago, _ = lorca.New("https://papago.naver.com/", "cache", 1280, 960)
 
 	go func() {
 		<-papago.Done()
