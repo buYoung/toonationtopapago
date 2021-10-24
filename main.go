@@ -68,14 +68,9 @@ func main() {
 }
 
 func papagoWindow() {
-	if !DirectoryExists("./cache") {
-		os.Mkdir("cache", 0755)
-	}
-	var err error
-	papago, err = lorca.New("https://papago.naver.com/", "cache", 1280, 960)
-	if err != nil {
-		log.Println("papago Window Create Error", err)
-		global.Log_Error.Sugar.Errorf("papago Window Create Error : %v", err)
+	papago, _ = lorca.New("https://papago.naver.com/", "", 1280, 960)
+	if papago != nil {
+		global.Log_Error.Sugar.Errorf("papago Window Create Error %#v", papago)
 		return
 	}
 
