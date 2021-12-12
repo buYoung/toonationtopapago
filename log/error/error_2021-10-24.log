@@ -1,0 +1,3 @@
+{"level":"error","date":"2021-10-24T13:47:15.214+0900","msg":"papago Window Create Error &lorca.ui{chrome:(*lorca.chrome)(0xc000208240), done:(chan struct {})(0xc000069a40), tmpDir:\"\"}"}
+{"level":"error","date":"2021-10-24T14:17:58.456+0900","msg":"papago Window Create Error : %v"}
+{"level":"error","date":"2021-10-24T14:19:07.552+0900","msg":"papago Window Create Error : %v"}

@@ -1,0 +1,4 @@
+{"level":"error","date":"2021-12-12T22:25:08.949+0900","msg":"TonaionPayloadParse : Get \"\": unsupported protocol scheme \"\" URL : "}
+{"level":"error","date":"2021-12-12T22:25:09.291+0900","msg":"Websocket Connection Error : websocket: bad handshake"}
+{"level":"error","date":"2021-12-12T22:57:23.058+0900","msg":"papago Window Create Error &lorca.ui{chrome:(*lorca.chrome)(0xc00009e540), done:(chan struct {})(0xc00006bc20), tmpDir:\"C:\\\\Users\\\\leebu\\\\AppData\\\\Local\\\\Temp\\\\lorca637759454\"}"}
+{"level":"error","date":"2021-12-12T23:09:58.275+0900","msg":"papago Window Create Error &lorca.ui{chrome:(*lorca.chrome)(0xc000066a20), done:(chan struct {})(0xc00006bce0), tmpDir:\"C:\\\\Users\\\\leebu\\\\AppData\\\\Local\\\\Temp\\\\lorca2702996071\"}"}

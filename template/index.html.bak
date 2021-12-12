@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            width: 800px;
+            height: 100%;
+            border: 1px solid black;
+        }
+        .sponsorlist {
+            display: flex;
+        }
+        .sponsortext {
+            width: max-content;
+            margin-right: 10px;
+        }
+        .remove {
+            margin: auto 0 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="sponsorlist">
+        <span class="sponsortext">이름(名前) : <span class="sponsor"></span></span>
+        <span>내용(内容) : <span class="message"></span></span>
+        <button class="remove" onclick="remove(id)">제거</button>
+    </div>
+</div>
+</body>
+<script>
+    const conatiner = document.querySelector(".container");
+    
+    function SetList(jsondata) {
+        const jsonstr = json
+    
+    }
+</script>
+</html>

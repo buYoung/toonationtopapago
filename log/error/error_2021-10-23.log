@@ -1,0 +1,10 @@
+{"level":"error","date":"2021-10-23T16:55:36.232+0900","msg":"TonaionPayloadParse : Get \"\": unsupported protocol scheme \"\""}
+{"level":"error","date":"2021-10-23T16:55:36.637+0900","msg":"Websocket Connection Error : websocket: bad handshake"}
+{"level":"error","date":"2021-10-23T16:56:11.388+0900","msg":"TonaionPayloadParse : Get \"\": unsupported protocol scheme \"\""}
+{"level":"error","date":"2021-10-23T16:56:11.785+0900","msg":"Websocket Connection Error : websocket: bad handshake"}
+{"level":"error","date":"2021-10-23T16:56:43.606+0900","msg":"TonaionPayloadParse : Get \"\": unsupported protocol scheme \"\""}
+{"level":"error","date":"2021-10-23T16:56:43.991+0900","msg":"Websocket Connection Error : websocket: bad handshake"}
+{"level":"error","date":"2021-10-23T17:04:16.944+0900","msg":"papago Window Create Error : EOF"}
+{"level":"error","date":"2021-10-23T17:05:06.418+0900","msg":"papago Window Create Error : EOF"}
+{"level":"error","date":"2021-10-23T17:17:49.588+0900","msg":"UserInfo read Error: unexpected end of JSON input"}
+{"level":"error","date":"2021-10-23T17:17:56.826+0900","msg":"UserInfo read Error: unexpected end of JSON input"}
