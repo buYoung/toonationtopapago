@@ -1,4 +1,4 @@
-package global
+package util
 
 import (
 	"fmt"
@@ -53,13 +53,6 @@ func Dateformats() string {
 	t := time.Now()
 	datez := fmt.Sprintf("%d-%02d-%02d.log", t.Year(), t.Month(), t.Day())
 	return datez
-}
-func FileExists(filename string) bool {
-	info, err := os.Stat(filename)
-	if os.IsNotExist(err) {
-		return false
-	}
-	return !info.IsDir()
 }
 func Join(strs ...string) string {
 	var sb = &strings.Builder{}

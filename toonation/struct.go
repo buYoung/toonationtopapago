@@ -1,9 +1,10 @@
-package global
+package toonation
 
-type UserData struct {
+import "sync"
+
+type ToonationKey struct {
 	WigetUrl string `json:"WigetUrl"`
 }
-
 type ToonationAlertStruct struct {
 	FilterCode int         `json:"filterCode"`
 	RemoteConf interface{} `json:"-"`
@@ -12,13 +13,18 @@ type ToonationAlertStruct struct {
 	Cm         bool        `json:"cm"`
 	LocaleCode string      `json:"LocaleCode"`
 }
-type ToonationAlertWebsocket struct {
-	Test    int                            `json:"test"`
-	Code    int                            `json:"code"`
-	Content ToonationAlertWebsocketContent `json:"content"`
+
+type ToonationInstance struct {
+	Data []ToonationType
+	L    sync.RWMutex
+}
+type ToonationType struct {
+	Test    int                  `json:"test"`
+	Code    int                  `json:"code"`
+	Content ToonationTypeContent `json:"content"`
 }
 
-type ToonationAlertWebsocketContent struct {
+type ToonationTypeContent struct {
 	Amount      int         `json:"amount"`
 	UID         string      `json:"uid"`
 	Account     string      `json:"account"`
