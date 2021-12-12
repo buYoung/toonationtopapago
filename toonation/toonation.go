@@ -36,6 +36,8 @@ func (i *ToonationInstance) Initialize() {
 				util.Log_Error.Sugar.Errorf("UserInfo read Error: %s", err)
 				return
 			}
+		} else {
+			IsReady.Store(true)
 		}
 
 		for {
